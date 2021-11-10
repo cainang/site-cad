@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icoLogo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <title>Cadastro</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="nav-wrapper">
+      <a href="#"><img class="logo" src="./img/logo2.svg"></a>
+    </div>
+  </nav>
+
+
+
+  <div id="container" class="row">
+    <form class="col s12">
+      <div class="input-field col s6">
+        <select id="dificuldade">
+          <option value="" disabled selected>Escolha uma dificuldade</option>
+          <option value="Iniciante">Iniciante</option>
+          <option value="Intermediário">Intermediário</option>
+          <option value="Avançado">Avançado</option>
+        </select>
+        <label>Dificuldade</label>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" class="Pergunta">
+          <label for="Pergunta">Pergunta</label>
+        </div>
+        <div class="input-field col s12">
+          <input type="text" class="item_Errado">
+          <label for="item">Item 1</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" class="item_Errado">
+          <label for="intem">item 2</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" class="item_Errado">
+          <label for="item">item 3</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" class="item_Correto">
+          <label for="item">Item Correto</label>
+        </div>
+      </div>
+      <a class="waves-effect waves-light btn btnCadastrar">Cadastrar</a>
+    </form>
+  </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>

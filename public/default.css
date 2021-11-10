@@ -1,0 +1,14 @@
+.navbar{
+  background-color: rgb(9, 9, 150);
+}
+.logo{
+  position: relative;
+  left: 5px;
+  width: 60px;
+  height: 60px;
+}
+#container{
+  margin-top: 25px;
+  width: 75%;
+  height: 75%;
+}
