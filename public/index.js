@@ -23,7 +23,7 @@ function cadastrarQuest() {
   }
   axios({
     method: "post",
-    url: 'https://classicdev-backend.herokuapp.com/create/quest?dificudade=' + textencode,
+    url: 'https://d1c0-104-196-56-105.ngrok.io/create/quest?dificudade=' + textencode,
     data: data,
 
   }).then(function (response) {
