@@ -23,7 +23,7 @@ function cadastrarQuest() {
   }
   axios({
     method: "post",
-    url: 'https://classicdev.loca.lt/create/quest?dificudade=' + textencode,
+    url: 'https://bc1e-2804-d4b-7ad2-5000-9ae7-43ff-fef4-e7a6.ngrok.io/create/quest?dificudade=' + textencode,
     data: data,
 
   }).then(function (response) {
